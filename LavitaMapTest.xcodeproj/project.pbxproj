@@ -13,6 +13,18 @@
 		8435B7941B861CA700BE0D12 /* LavitaMapTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8435B7921B861CA700BE0D12 /* LavitaMapTest.xcdatamodeld */; };
 		8435B7961B861CA700BE0D12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8435B7951B861CA700BE0D12 /* Assets.xcassets */; };
 		8435B7991B861CA700BE0D12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8435B7971B861CA700BE0D12 /* LaunchScreen.storyboard */; };
+		8435B7A31B861E7200BE0D12 /* expo_boundary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8435B7A21B861E7200BE0D12 /* expo_boundary.plist */; };
+		8435B7A81B861E7A00BE0D12 /* Expo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435B7A41B861E7A00BE0D12 /* Expo.swift */; };
+		8435B7A91B861E7A00BE0D12 /* ExpoOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435B7A51B861E7A00BE0D12 /* ExpoOverlay.swift */; };
+		8435B7AA1B861E7A00BE0D12 /* ExpoOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435B7A61B861E7A00BE0D12 /* ExpoOverlayView.swift */; };
+		8435B7AB1B861E7A00BE0D12 /* exposition_plan.png in Resources */ = {isa = PBXBuildFile; fileRef = 8435B7A71B861E7A00BE0D12 /* exposition_plan.png */; };
+		8435B7AE1B861E8300BE0D12 /* GridTileOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435B7AC1B861E8300BE0D12 /* GridTileOverlay.swift */; };
+		8435B7AF1B861E8300BE0D12 /* GridTileOverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435B7AD1B861E8300BE0D12 /* GridTileOverlayRenderer.swift */; };
+		8435B7B41B861E8E00BE0D12 /* Pavillions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435B7B11B861E8E00BE0D12 /* Pavillions.swift */; };
+		8435B7B71B861F0A00BE0D12 /* pavillions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8435B7B61B861F0A00BE0D12 /* pavillions.plist */; };
+		8435B7BC1B862F4F00BE0D12 /* Pavillion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435B7BB1B862F4F00BE0D12 /* Pavillion.swift */; };
+		8435B7BF1B862F7600BE0D12 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435B7BD1B862F7600BE0D12 /* CoreDataHelper.swift */; };
+		8435B7C01B862F7600BE0D12 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435B7BE1B862F7600BE0D12 /* CoreDataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		8435B7951B861CA700BE0D12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8435B7981B861CA700BE0D12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8435B79A1B861CA700BE0D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8435B7A21B861E7200BE0D12 /* expo_boundary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expo_boundary.plist; sourceTree = "<group>"; };
+		8435B7A41B861E7A00BE0D12 /* Expo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expo.swift; sourceTree = "<group>"; };
+		8435B7A51B861E7A00BE0D12 /* ExpoOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpoOverlay.swift; sourceTree = "<group>"; };
+		8435B7A61B861E7A00BE0D12 /* ExpoOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpoOverlayView.swift; sourceTree = "<group>"; };
+		8435B7A71B861E7A00BE0D12 /* exposition_plan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exposition_plan.png; sourceTree = "<group>"; };
+		8435B7AC1B861E8300BE0D12 /* GridTileOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridTileOverlay.swift; sourceTree = "<group>"; };
+		8435B7AD1B861E8300BE0D12 /* GridTileOverlayRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridTileOverlayRenderer.swift; sourceTree = "<group>"; };
+		8435B7B11B861E8E00BE0D12 /* Pavillions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pavillions.swift; sourceTree = "<group>"; };
+		8435B7B61B861F0A00BE0D12 /* pavillions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pavillions.plist; sourceTree = "<group>"; };
+		8435B7BB1B862F4F00BE0D12 /* Pavillion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pavillion.swift; sourceTree = "<group>"; };
+		8435B7BD1B862F7600BE0D12 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		8435B7BE1B862F7600BE0D12 /* CoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,59 @@
 		8435B78A1B861CA600BE0D12 /* LavitaMapTest */ = {
 			isa = PBXGroup;
 			children = (
+				8435B7C11B86312600BE0D12 /* models */,
+				8435B7BD1B862F7600BE0D12 /* CoreDataHelper.swift */,
+				8435B7BE1B862F7600BE0D12 /* CoreDataStore.swift */,
+				8435B7BA1B86201C00BE0D12 /* plist */,
+				8435B7B91B861FF300BE0D12 /* images */,
+				8435B7B81B861F3600BE0D12 /* overlays */,
 				8435B78B1B861CA600BE0D12 /* AppDelegate.swift */,
 				8435B78D1B861CA600BE0D12 /* ViewController.swift */,
 				8435B78F1B861CA600BE0D12 /* Main.storyboard */,
 				8435B7951B861CA700BE0D12 /* Assets.xcassets */,
 				8435B7971B861CA700BE0D12 /* LaunchScreen.storyboard */,
-				8435B79A1B861CA700BE0D12 /* Info.plist */,
 				8435B7921B861CA700BE0D12 /* LavitaMapTest.xcdatamodeld */,
+				8435B79A1B861CA700BE0D12 /* Info.plist */,
 			);
 			path = LavitaMapTest;
+			sourceTree = "<group>";
+		};
+		8435B7B81B861F3600BE0D12 /* overlays */ = {
+			isa = PBXGroup;
+			children = (
+				8435B7AC1B861E8300BE0D12 /* GridTileOverlay.swift */,
+				8435B7AD1B861E8300BE0D12 /* GridTileOverlayRenderer.swift */,
+				8435B7A51B861E7A00BE0D12 /* ExpoOverlay.swift */,
+				8435B7A61B861E7A00BE0D12 /* ExpoOverlayView.swift */,
+			);
+			name = overlays;
+			sourceTree = "<group>";
+		};
+		8435B7B91B861FF300BE0D12 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8435B7A71B861E7A00BE0D12 /* exposition_plan.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		8435B7BA1B86201C00BE0D12 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				8435B7B61B861F0A00BE0D12 /* pavillions.plist */,
+				8435B7B11B861E8E00BE0D12 /* Pavillions.swift */,
+				8435B7A41B861E7A00BE0D12 /* Expo.swift */,
+				8435B7A21B861E7200BE0D12 /* expo_boundary.plist */,
+			);
+			name = plist;
+			sourceTree = "<group>";
+		};
+		8435B7C11B86312600BE0D12 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				8435B7BB1B862F4F00BE0D12 /* Pavillion.swift */,
+			);
+			name = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +192,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8435B7A31B861E7200BE0D12 /* expo_boundary.plist in Resources */,
 				8435B7991B861CA700BE0D12 /* LaunchScreen.storyboard in Resources */,
+				8435B7AB1B861E7A00BE0D12 /* exposition_plan.png in Resources */,
+				8435B7B71B861F0A00BE0D12 /* pavillions.plist in Resources */,
 				8435B7961B861CA700BE0D12 /* Assets.xcassets in Resources */,
 				8435B7911B861CA600BE0D12 /* Main.storyboard in Resources */,
 			);
@@ -137,9 +208,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8435B7A81B861E7A00BE0D12 /* Expo.swift in Sources */,
+				8435B7AF1B861E8300BE0D12 /* GridTileOverlayRenderer.swift in Sources */,
+				8435B7BC1B862F4F00BE0D12 /* Pavillion.swift in Sources */,
+				8435B7B41B861E8E00BE0D12 /* Pavillions.swift in Sources */,
 				8435B78E1B861CA600BE0D12 /* ViewController.swift in Sources */,
+				8435B7A91B861E7A00BE0D12 /* ExpoOverlay.swift in Sources */,
+				8435B7C01B862F7600BE0D12 /* CoreDataStore.swift in Sources */,
 				8435B78C1B861CA600BE0D12 /* AppDelegate.swift in Sources */,
 				8435B7941B861CA700BE0D12 /* LavitaMapTest.xcdatamodeld in Sources */,
+				8435B7BF1B862F7600BE0D12 /* CoreDataHelper.swift in Sources */,
+				8435B7AE1B861E8300BE0D12 /* GridTileOverlay.swift in Sources */,
+				8435B7AA1B861E7A00BE0D12 /* ExpoOverlayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

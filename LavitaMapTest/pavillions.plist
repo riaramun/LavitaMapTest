@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Pavillion 12</key>
+	<array>
+		<string>{65.9906324407659,21.3274561811988}</string>
+		<string>{65.8989233708704,35.0517636062229}</string>
+		<string>{48.2636755120604,35.0517636062229}</string>
+		<string>{48.4132318559154,21.3274561811988}</string>
+	</array>
+	<key>pav_num</key>
+	<integer>1</integer>
+	<key>Pavillion 7</key>
+	<array>
+		<string>{51.7326489933261,49.9760104782436}</string>
+		<string>{51.4531039287974,77.9495988363528}</string>
+		<string>{42.6413492094281,77.2746328974172}</string>
+		<string>{42.309461945595,51.1759499252402}</string>
+	</array>
+	<key>Pavillion 8</key>
+	<array>
+		<string>{60.3588830823537,50.2009991245555}</string>
+		<string>{60.1355790616601,77.7996064054782}</string>
+		<string>{52.7429772167842,77.5746177591663}</string>
+		<string>{52.4240026665492,51.7759196487386}</string>
+	</array>
+</dict>
+</plist>
